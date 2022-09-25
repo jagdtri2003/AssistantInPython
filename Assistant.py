@@ -7,20 +7,10 @@ pip install beautifulsoup4
 pip install requests 
 """
 
-import subprocess
-import pyttsx3
-import json
+import subprocess,pyttsx3,json
 import speech_recognition as sr
-import datetime
-import wikipedia
-import webbrowser
-import os
-import winshell
-import pyjokes
-import ctypes
-import time
-import requests
-import shutil
+import datetime,wikipedia,webbrowser,os
+import winshell,pyjokes,ctypes,time,requests,shutil
 
 from ecapture import ecapture as ec
 from bs4 import BeautifulSoup
